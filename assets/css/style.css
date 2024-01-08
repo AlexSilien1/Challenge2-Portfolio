@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid red;
+    align-items: center;
+    height: 10vh;
+}
+
+header section{
+flex:1 0 45%;
+border: 1px solid purple;
+}
+
+header h1{
+    width: 40%;
+    background-color: green;
+    margin-left: 5%;
+}
+
+header nav{
+flex: 1 0 45%;
+border: 1px solid purple;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+
+figure{
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/01/08/15/inline-speed-skating-2460832_1280.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 20vh;
+    background-repeat: no-repeat;
+}
+
+.row{
+    display: flex;
+}
+
+.column-left{
+    flex: 1 0 20%;
+}
+
+.column-right{
+    flex: 1 0 80%;
+    font-style: italic;
+}

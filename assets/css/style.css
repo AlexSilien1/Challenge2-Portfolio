@@ -13,18 +13,15 @@ header{
 
 header section{
 flex:1 0 45%;
-border: 1px solid purple;
 }
 
 header h1{
     width: 40%;
-    background-color: green;
     margin-left: 5%;
 }
 
 header nav{
 flex: 1 0 45%;
-border: 1px solid purple;
 }
 
 header ul{
@@ -48,9 +45,13 @@ figure{
 
 .column-left{
     flex: 1 0 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .column-right{
     flex: 1 0 80%;
     font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

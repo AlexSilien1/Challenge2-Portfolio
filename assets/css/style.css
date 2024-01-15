@@ -6,9 +6,15 @@
 header{
     display: flex;
     flex-wrap: wrap;
-    border: 5px solid red;
     align-items: center;
     height: 10vh;
+    background-color: brown;
+    border: 7px solid black;
+}
+
+.section{
+    background-color: brown;
+    border: solid black;
 }
 
 header section{
@@ -30,10 +36,25 @@ header ul{
     list-style: none;
     justify-content: space-around;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    color: black;
+    border: 7px black;
+    padding: 2%;
+    border: 7px solid black;
+}
+
 img{
+    border: 5px solid black;
+}
+
+.img{
     width: 40%;
     height: 40%;
-    margin-left: 0%;
+    margin-left: 7%;
     flex-wrap: wrap;
 }
 
@@ -50,6 +71,7 @@ img{
     height: 50vh;
     flex: 1 0 100%;
     object-position: center;
+    margin-bottom: 3%;
 }
 
 .row{
@@ -59,17 +81,32 @@ img{
 
 .column-left{
     flex: 1 0 20%;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 .column-right{
     flex: 1 0 80%;
     font-style: italic;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+ 
+.correction{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
 }
 
-.space-creation{
-    margin-left: 5%;
+.container{
+    position: relative;
+    color: white;
+}
+
+.bottom-left{
+    position: absolute;
+    bottom: 2%;
+    left: 4%;
+    background-color: black;
+    color: white;
 }
